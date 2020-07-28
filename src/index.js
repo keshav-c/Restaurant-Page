@@ -1,1 +1,3 @@
-console.log('Hello webpack!');
+import './css/main.css';
+
+// document.body.style.backgroundImage = BreakfastImage;
