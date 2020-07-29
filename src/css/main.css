@@ -30,7 +30,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 768px;
-  margin: 0 auto 20px;
+  margin: 0 auto 50px;
 }
 
 .tab-heading {
@@ -44,9 +44,9 @@ body {
 #tab-content {
   grid-column: 1 / -1;
   height: 300px;
-  background-color: azure;
-  background-blend-mode: multiply;
+  color: azure;
   width: 90%;
   max-width: 1500px;
   margin: 0 auto;
+  text-align: center;
 }

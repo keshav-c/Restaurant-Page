@@ -1,3 +1,6 @@
+import about from './pages/about';
+import contact from './pages/contact';
+
 const getTabContent = (tabName) => {
   let tabContent;
   switch (tabName) {
@@ -5,10 +8,10 @@ const getTabContent = (tabName) => {
       tabContent = 'Render menu';
       break;
     case 'about':
-      tabContent = 'Render about';
+      tabContent = about;
       break;
     case 'contact':
-      tabContent = 'Render contact';
+      tabContent = contact;
       break;
     default:
       tabContent = 'ERROR!! Tab name not valid';
