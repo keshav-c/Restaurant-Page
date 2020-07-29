@@ -17,7 +17,7 @@ body {
   background-color: #615d5d;
   background-size: cover;
   color: aqua;
-  font-family: "YatraOne";
+  font-family: "YatraOne", sans-serif;
 }
 
 #logo {
