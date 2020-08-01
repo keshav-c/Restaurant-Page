@@ -1,3 +1,4 @@
+import 'lightbox2/dist/css/lightbox.min.css';
 import './css/main.css';
 import switchTab from './js/dom';
 import { setupTabs } from './js/tab';
