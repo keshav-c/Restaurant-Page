@@ -50,3 +50,17 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#gallery img {
+  margin: 10px 15px;
+  box-shadow: 0 10px 6px -6px rgba(22, 20, 20, 0.664);
+}
+

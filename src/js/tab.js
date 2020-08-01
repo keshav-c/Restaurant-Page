@@ -1,5 +1,6 @@
 import about from './pages/about';
 import contact from './pages/contact';
+import menu from './pages/menu';
 
 const tabs = {
   menu: 'Menu',
@@ -35,7 +36,7 @@ const getTabContent = (tabName) => {
   let tabContent;
   switch (tabName) {
     case 'menu':
-      tabContent = 'Render menu';
+      tabContent = menu;
       break;
     case 'about':
       tabContent = about;
