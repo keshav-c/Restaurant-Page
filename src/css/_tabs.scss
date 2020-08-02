@@ -1,0 +1,28 @@
+#tab-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 768px;
+  margin: 0 auto 50px;
+}
+
+.tab-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  width: 200px;
+  background-color: transparent;
+}
+
+#tab-content {
+  grid-column: 1 / -1;
+  height: 300px;
+  color: azure;
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.active-tab {
+  border-bottom: 2px solid red;
+}
