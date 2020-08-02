@@ -1,7 +1,7 @@
 # Restaurant-Page
 This demo project renders the landing page for a restaurant's website.
 
-![menu](./docs/screenshot.png | width=650)
+<img src="./docs/screenshot.png" alt="Screenshot" width="650">
 
 > In this project I demonstrate, using Webpack, the creation of a static website. The
 front-end code is very modular, and is bundled together along with all other static
