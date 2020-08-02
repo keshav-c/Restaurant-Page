@@ -24,7 +24,7 @@ const setupTabs = () => {
   const tabContainer = document.createElement('div');
   tabContainer.id = 'tab-container';
   appContainer.appendChild(tabContainer);
-  tabs.forEach(({tabId, tabHeading}) => {
+  tabs.forEach(({ tabId, tabHeading }) => {
     const tabDiv = document.createElement('div');
     tabDiv.classList.add('tab-heading');
     tabDiv.id = tabId;
