@@ -51,6 +51,10 @@ body {
   text-align: center;
 }
 
+.active-tab {
+  border-bottom: 2px solid red;
+}
+
 #gallery {
   display: flex;
   flex-direction: row;
