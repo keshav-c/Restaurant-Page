@@ -1,69 +1,69 @@
 # Restaurant-Page
-This project dynamically renders the home page for a restaurant's website
+This demo project renders the landing page for a restaurant's website.
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<img src="./docs/screenshot.png" alt="Screenshot" width="650">
 
-> This project is a demonstration of DOM manipulation using JavaScript and attempts to 
-dynamically generate the entire contents of the website using JavaScript alone. In order
-to keep the code clean and maintainable, I'm using ES6 classes (where they are suitable)
-and webpack for modular code.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+> In this project I demonstrate, using Webpack, the creation of a static website. The
+front-end code is very modular, and is bundled together along with all other static
+assets - fonts, images, styles, scripts and external NPM libraries using Webpack and it's
+plugins and loaders.
 
 ## Built With
 
 - JavaScript (ES6), HTML and CSS
-- webpack and plugins
+- Webpack and plugins
 - Tested on Chrome, Firefox and edge browsers.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://nostalgic-turing-135622.netlify.app/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- NPM, Nodejs, Sass
+
 ### Setup
+
+- Clone this repo
+- Have Sass installed (Preferably Dart Sass)
 
 ### Install
 
+- `npm install`
+
 ### Usage
 
-### Run tests
+- `npm run server`
+- The live server should automatically open the site in your browser.
+- Or, look in the terminal for the server localhost address and open it manually in browser.
+
+Or
+
+- Build bundled assets `npm run build`
+- Open `index.html` generated in the `dist` folder after bundling by Webpack
 
 ### Deployment
 
+The project is not setup for production. The bundled files are generated in Development mode
+for analysis and debugging purpose.
 
+## Author
 
-## Authors
+👤 **Keshav Chakravarthy**
 
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@keshav-c](https://github.com/keshav-c/)
+- Linkedin: [k3shavchakravarthy](https://www.linkedin.com/in/k3shavchakravarthy/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/keshav-c/Restaurant-Page/issues).
 
 ## Show your support
 
@@ -71,10 +71,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- The Odin Project
+- The amazing people making Webpack and it's plugins, loaders etc.
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
