@@ -1,0 +1,9 @@
+@use 'base';
+@use 'tabs';
+@use 'menu';
+
+#logo {
+  font-size: 4em;
+  width: fit-content;
+  margin: 20px auto;
+}
